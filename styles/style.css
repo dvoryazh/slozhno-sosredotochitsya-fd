@@ -302,6 +302,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    margin-block-start: 20px;
   }
 
   .content__section-subtitle {
@@ -321,6 +322,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     align-items: start;
+    margin-block-start: 80px;
   }
   .content__section-block-five-rules > .content__section-title {
     grid-column: 1;
@@ -345,6 +347,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     align-items: start;
+    margin-block-start: 80px;
   }
 
   .content__section-block-why-so-hard > .content__section-title {
@@ -384,12 +387,6 @@
     gap: 20px;
   }
 
-  .content__section-block-five-rules .content__section-subtitle.title-decor {
-    grid-column: 2;
-    grid-row: 1;
-    margin-block-start: 0;
-  }
-
   .content__section-block-less-concentration
     > .content__text-block:nth-of-type(1) {
     grid-column: 1;
@@ -415,6 +412,13 @@
   .content__text-block-five-rules {
     display: grid;
     gap: 20px;
+    margin-block-start: 80px;
+  }
+
+   .content__section-block-five-rules .content__section-subtitle.title-decor {
+    grid-column: 2;
+    grid-row: 1;
+    margin-block-start: 0;
   }
 
   .content__text-block-five-rules .title-decor.rules-title {
