@@ -401,10 +401,6 @@
     grid-row: 2;
   }
 
-  .content__section-block-less-concentration .title-decor {
-    margin-block-start: 0;
-  }
-
   .content__text-block-five-rules {
     display: grid;
     gap: 20px;
