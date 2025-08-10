@@ -286,7 +286,7 @@
   }
   .content__section-block-why-so-hard .content__text-block {
     display: grid;
-    gap: 20px; /* отступы между статьями */
+    gap: 20px; 
   }
 
   .content__section-block-less-concentration {
@@ -294,6 +294,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     align-items: start;
+    margin-block-start: 80px;
   }
 
   .content__section-block-less-concentration .content__text-block {
@@ -333,7 +334,7 @@
   }
   .content__section-block-five-rules .content__text-block-five-rules {
     display: grid;
-    gap: 20px; /* отступы между статьями */
+    gap: 20px; 
   }
 }
 
