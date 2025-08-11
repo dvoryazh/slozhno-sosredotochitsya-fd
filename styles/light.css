@@ -21,7 +21,7 @@
   --menu-button-outline-color: rgb(50 49 45 / 0.4);
   --rec-display: none;
 }
-rgb(50 49 45 / 40%)
+
 @media (prefers-color-scheme: light) {
   :root:not(.theme-dark):not(.theme-light) {
     --bg-img: url("../images/cover-image-light.png");
