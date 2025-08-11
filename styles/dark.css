@@ -15,6 +15,10 @@
   --title-color: #db00ff;
   --accent-color: #ff0070;
   --outline-button-color: rgba(255 0 112 / 0.4);
+  --border-color: #ff0070;
+  --menu-button-color: var(--text-color);
+  --menu-button-outline-color: rgba(255 0 112 / 0.4);
+  --rec-display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,5 +29,10 @@
     --title-color: #db00ff;
     --accent-color: #ff0070;
     --outline-button-color: rgba(255 0 112 / 0.4);
+
+    --border-color: #ff0070;
+    --menu-button-color: var(--text-color);
+    --menu-button-outline-color: rgba(255 0 112 / 0.4);
+    --rec-display: block;
   }
 }
