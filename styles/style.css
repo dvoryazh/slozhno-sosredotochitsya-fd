@@ -53,7 +53,7 @@
   position: absolute;
   right: 38px;
   top: var(--main-padding);
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   font-size: var(--main-font-size);
   color: var(--accent-color);
 }
@@ -84,7 +84,7 @@
 
 .header__theme-menu-button {
   color: var(--menu-button-color);
-  font-family: var(--font-family, sans-serif);
+  font-family: var(--main-font, monospace);
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
   line-height: 1;
@@ -104,14 +104,14 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--menu-button-outline-color);
+  outline: 1px solid var(--outline-button-color);
   pointer-events: none;
 }
 
 .title {
   grid-row: 2;
   align-self: center;
-  font-family: var(--main-font);
+  font-family: var(--main-font, monospace);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-color);
   line-height: 82.5%;
@@ -123,7 +123,7 @@
   margin-block-start: 55px;
   background-color: var(--accent-color);
   block-size: min-content;
-  font-family: var(--main-font);
+  font-family: var(--main-font, monospace);
   font-weight: var(--title-decor-weight);
   font-size: var(--main-font-size);
   color: var(--title-decor-color);
@@ -214,7 +214,7 @@
 }
 
 .content__section-title {
-  font-family: var(--main-font);
+  font-family: var(--main-font, monospace);
   font-size: var(--main-font-size);
   font-weight: var(--title-decor-weight);
   color: var(--accent-color);
@@ -226,7 +226,7 @@
 }
 
 .content__section-text {
-  font-family: var(--main-font);
+  font-family: var(--main-font, monospace);
   font-weight: var(--main-font-weight);
   font-size: var(--main-font-size);
   line-height: 130%;
