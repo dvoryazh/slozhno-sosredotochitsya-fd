@@ -1,1 +1,1 @@
-https://github.com/dvoryazh/slozhno-sosredotochitsya-fd
+git@github.com:dvoryazh/slozhno-sosredotochitsya-fd.git
