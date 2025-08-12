@@ -15,8 +15,9 @@
   --title-color: #db00ff;
   --accent-color: #ff0070;
   --outline-button-color: rgba(255 0 112);
+  --section-title-color: #ff0070;
   --border-color: #ff0070;
-  --menu-button-color: var(--text-color);
+  --menu-button-color: #ff0070;
   --menu-button-outline-color: rgba(255 0 112 / 0.4);
   --rec-display: block;
 }
@@ -29,9 +30,9 @@
     --title-color: #db00ff;
     --accent-color: #ff0070;
     --outline-button-color: rgba(255 0 112 / 0.4);
-
+    --section-title-color: #ff0070;
     --border-color: #ff0070;
-    --menu-button-color: var(--text-color);
+    --menu-button-color: #ff0070;
     --menu-button-outline-color: rgba(255 0 112 / 0.4);
     --rec-display: block;
   }

@@ -15,7 +15,7 @@
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --outline-button-color: #353430;
-
+  --section-title-color: #353430;
   --border-color: #353430;
   --menu-button-color: #353430;
   --menu-button-outline-color: rgb(50 49 45 / 0.4);
@@ -30,6 +30,7 @@
     --title-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --outline-button-color: #353430;
+    --section-title-color: #353430;
     --border-color: #353430;
     --menu-button-color: #353430;
     --menu-button-outline-color: #353430;

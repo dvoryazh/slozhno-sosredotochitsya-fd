@@ -100,7 +100,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button_active {
@@ -217,7 +217,7 @@
   font-family: var(--main-font, monospace);
   font-size: var(--main-font-size);
   font-weight: var(--title-decor-weight);
-  color: var(--accent-color);
+  color: var(--section-title-color);
 }
 
 .content__section .title-decor {
@@ -231,6 +231,7 @@
   font-size: var(--main-font-size);
   line-height: 130%;
   color: var(--text-color);
+  margin-block-end: 10px;
 }
 
 .content__section-article .rules-title {
@@ -307,7 +308,7 @@
     margin-block-start: 0;
   }
 
-  .content__section-block-less-concentration .content__text-block .title-decor {
+  .content__section-block-less-concentration .title-decor {
     margin-block-start: 0;
     margin-block-end: 9px;
   }
