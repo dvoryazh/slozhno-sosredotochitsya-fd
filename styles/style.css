@@ -231,7 +231,6 @@
   font-size: var(--main-font-size);
   line-height: 130%;
   color: var(--text-color);
-  margin-block-end: 10px;
 }
 
 .content__section-article .rules-title {
